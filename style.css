@@ -1,0 +1,252 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    background-color: #EFF3F4;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#animation {
+    width: 800px;
+    height: 800px;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 50%;
+    animation: rotateCenter 16s linear infinite;
+}
+
+.square1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.square-1 {
+    animation: rotateReverse 16s linear infinite;
+}
+
+.square1 img {
+    width: 240px;
+}
+
+
+.circle2 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    animation: rotateReverse 16s linear infinite;
+}
+
+.circle3 {
+    position: absolute;
+    left: 5%;
+    top: 28%;
+    animation: rotateReverse 16s linear infinite;
+}
+
+.circle4 {
+    position: absolute;
+    top: 29%;
+    left: 68.5%;
+    animation: rotateReverse 16s linear infinite;
+}
+
+.circle5 {
+    position: absolute;
+    left: 61%;
+    top: 57.5%;
+    animation: rotateReverse 16s linear infinite;
+
+}
+
+.circle6 {
+    position: absolute;
+    left: 51%;
+    top: 7%;
+    animation: rotateReverse 16s linear infinite;
+
+}
+
+.circle7 {
+    position: absolute;
+    left: 34.5%;
+    top: 68.5%;
+    animation: rotateReverse 16s linear infinite;
+
+}
+
+.circle8 {
+    position: absolute;
+    right: 50%;
+    bottom: 66%;
+    animation: rotateReverse 16s linear infinite;
+
+}
+
+.circle9 {
+    position: absolute;
+    right: 84%;
+    bottom: 83%;
+
+}
+
+.photo-head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    position: relative;
+}
+
+
+
+.photo img {
+    width: full;
+}
+
+@keyframes rotateCenter {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateReverse {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.circlephoto {
+    position: relative;
+}
+
+.circlephoto img {
+    width: 100%;
+}
+
+.bg-text-set {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-text {
+    width: 140px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    visibility: hidden;
+}
+
+.r-photo {
+    position: relative;
+}
+
+#middle-img2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#middle-photo:hover #middle-img1 {
+    visibility: hidden;
+}
+#middle-photo:hover #middle-img2 {
+    visibility: visible;
+}
+
+#middle-photo:hover #text-m {
+    visibility: visible;
+}
+
+
+#circle2:hover #middle-img1 {
+    visibility: hidden;
+}
+#circle2:hover #middle-img2 {
+    visibility: visible;
+}
+#circle2:hover #text-m {
+    visibility: visible;
+}
+
+#circle3:hover #middle-img1 {
+    visibility: hidden;
+}
+#circle3:hover #middle-img2 {
+    visibility: visible;
+}
+#circle3:hover #text-m {
+    visibility: visible;
+}
+
+#circle4:hover #middle-img1 {
+    visibility: hidden;
+}
+#circle4:hover #middle-img2 {
+    visibility: visible;
+}
+#circle4:hover #text-m {
+    visibility: visible;
+}
+
+#circle5:hover #middle-img1 {
+    visibility: hidden;
+}
+#circle5:hover #middle-img2 {
+    visibility: visible;
+}
+#circle5:hover #text-m {
+    visibility: visible;
+}
+
+#circle6:hover #middle-img1 {
+    visibility: hidden;
+}
+#circle6:hover #middle-img2 {
+    visibility: visible;
+}
+#circle6:hover #text-m {
+    visibility: visible;
+}
+
+#circle7:hover #middle-img1 {
+    visibility: hidden;
+}
+#circle7:hover #middle-img2 {
+    visibility: visible;
+}
+#circle7:hover #text-m {
+    visibility: visible;
+}
+
+#circle8:hover #middle-img1 {
+    visibility: hidden;
+}
+#circle8:hover #middle-img2 {
+    visibility: visible;
+}
+#circle8:hover #text-m {
+    visibility: visible;
+}
